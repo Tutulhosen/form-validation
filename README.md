@@ -4,14 +4,15 @@ This is the form validation system. We will upload all validation system step by
 <img src="img.png">
 
 #### Our project features--
---get  data from all input fiend
---email validate by filter
---fixed email check
---get all notification for every field in array.
---create different function for difrent condition
+-get  data from all input fiend
+-email validate by filter
+-fixed email check
+-get all notification for every field in array.
+-create different function for difrent condition
+-etc
 
-''' php
-	<?php 
+``` php
+ 
 		
 		if (isset($_POST['add'])) {
 			$name= $_POST['name'];
@@ -68,10 +69,10 @@ This is the form validation system. We will upload all validation system step by
 				cleardata();
 			}
 		}
-        ?> '''
+        ```
 
-        '''php function
-        <?php
+        ```php function
+        
 
 /**
  * message validation
@@ -136,5 +137,4 @@ function validate($mgs, $type){
     }
 
 
-?>
-'''
+```
